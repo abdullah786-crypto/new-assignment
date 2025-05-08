@@ -1,7 +1,7 @@
-import AddNewPost from "@/Components/BlogPost/addNewPost.vue";
-import BlogDetails from "@/Components/BlogPost/blogDetails.vue";
-import EditPost from "@/Components/BlogPost/editPost.vue";
-import MainFile from "@/Components/mainFile.vue";
+import AddNewPost from "@/views/files/addNewPost.vue";
+import BlogDetails from "@/views/files/blogDetails.vue";
+import EditPost from "@/views/files/editPost.vue";
+import MainFile from "@/views/files/mainFile.vue";
 import { createWebHistory, createRouter } from "vue-router";
 
 export const routes = [
